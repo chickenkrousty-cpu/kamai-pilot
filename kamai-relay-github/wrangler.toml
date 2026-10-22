@@ -1,0 +1,11 @@
+name = "kamai-relay"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[[durable_objects.bindings]]
+name = "WORKSPACE"
+class_name = "Workspace"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Workspace"]
